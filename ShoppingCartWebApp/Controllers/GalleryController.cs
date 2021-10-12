@@ -16,5 +16,10 @@ namespace ShoppingCartWebApp.Controllers
         {
             return View();
         }
+
+        public IActionResult Search()
+        {
+            return RedirectToAction("Index", "Gallery");
+        }
     }
 }
