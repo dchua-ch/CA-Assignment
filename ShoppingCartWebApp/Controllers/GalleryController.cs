@@ -18,5 +18,10 @@ namespace ShoppingCartWebApp.Controllers
             //meow
             return View();
         }
+
+        public IActionResult Search()
+        {
+            return RedirectToAction("Index", "Gallery");
+        }
     }
 }
